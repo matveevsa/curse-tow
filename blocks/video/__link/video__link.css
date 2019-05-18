@@ -1,0 +1,18 @@
+.video__link {
+  position: absolute;
+  padding-left: 32px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.video__link:before {
+  position: absolute;
+  content: '';
+  top: 30px;
+  left: 30px;
+  width: 41px;
+  height: 41px;
+  background-image: url('../icon_play.svg');
+}

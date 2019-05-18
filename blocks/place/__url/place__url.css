@@ -1,0 +1,19 @@
+.place__url {
+  position: relative;
+  display: inline-block;
+
+
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.place__url:after {
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  bottom: 4px;
+  height: 2px;
+  background-color: #fff;
+}

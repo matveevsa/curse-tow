@@ -1,0 +1,13 @@
+@import url('../link/link.css');
+@import url('./__link/header__link.css');
+@import url('./__lang/header__lang.css');
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: Inter, Arial, sans-serif;
+  color: #fff;
+}

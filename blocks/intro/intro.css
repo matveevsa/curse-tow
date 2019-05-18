@@ -1,0 +1,15 @@
+@import url('./__title/intro__title.css');
+@import url('./__subtitle/intro__subtitle.css');
+@import url('./__text/intro__text.css');
+@import url('./__list/intro__list.css');
+@import url('./__item/intro__item.css');
+@import url('./__content-row/intro__content-row.css');
+@import url('./__content-col/intro__content-col.css');
+
+
+.intro {
+  width: 984px;
+  
+  font-family: Inter, Arial, sans-serif;
+  color: #fff;
+}

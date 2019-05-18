@@ -1,0 +1,14 @@
+@import url('./__columns/place__columns.css');
+@import url('./__image/place__image.css');
+@import url('./__title/place__title.css');
+@import url('./__url-heading/place__url-heading.css');
+@import url('./__url/place__url.css');
+@import url('./__paragraph/place__paragraph.css');
+@import url('./__container/place__container.css');
+.place {
+  width: 984px;
+  
+
+  font-family: Inter, Arial, sans-serif;
+  color: #fff;
+}

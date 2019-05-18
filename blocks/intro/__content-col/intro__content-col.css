@@ -1,0 +1,7 @@
+.intro__content-col:first-child {
+  width: 683px;
+}
+
+.intro__content-col:last-child {
+  width: 283px;
+}

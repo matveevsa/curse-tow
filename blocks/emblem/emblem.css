@@ -1,0 +1,11 @@
+@import url('./__item/emblem__item.css');
+@import url('./__image/emblem__image.css');
+@import url('./__title/emblem__title.css');
+@import url('./__list/emblem__list.css');
+@import url('./__city/emblem__city.css');
+
+.emblem {
+  text-align: center;
+  font-family: Inter, Arial, sans-serif;
+  color: #fff;
+}

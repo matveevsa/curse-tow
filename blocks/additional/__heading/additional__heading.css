@@ -1,0 +1,11 @@
+.additional__heading {
+  position: absolute;
+  top: 32px;
+  left: 20px;
+  width: 248px;
+  margin: 0;
+
+  font-size: 27px;
+  line-height: 29px;
+  font-weight: 900;
+}

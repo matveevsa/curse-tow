@@ -1,0 +1,9 @@
+.emblem__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-top: 73px;
+  padding: 0;
+
+  list-style: none;
+}

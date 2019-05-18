@@ -1,0 +1,39 @@
+@import url('../blocks/fonts/fonts.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/place/place.css');
+@import url('../blocks/content-title/content-title.css');
+@import url('../blocks/content-subtitle/content-subtitle.css');
+@import url('../blocks/video/video.css');
+@import url('../blocks/additional/additional.css');
+@import url('../blocks/comments/comments.css');
+@import url('../blocks/comment/comment.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/emblem/emblem.css');
+@import url('../blocks/barentsburg/barentsburg.css');
+@import url('../blocks/main/main.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/footer/footer.css');
+
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #2A2C2F;
+}
+
+.sr-only {
+  position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+}
