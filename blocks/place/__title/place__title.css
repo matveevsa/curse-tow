@@ -1,9 +1,27 @@
 .place__title {
-  width: 457px;
+  width: 48.52%;
   margin: 0;
   padding: 0;
 
   font-size: 72px;
   line-height: 65px;
   font-weight: 900;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    width: 30%;
+
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    width: 90.62%;
+
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

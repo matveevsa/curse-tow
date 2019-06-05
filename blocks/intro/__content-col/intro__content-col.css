@@ -3,5 +3,12 @@
 }
 
 .intro__content-col:last-child {
+  display: none;
   width: 283px;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__content-col:first-child {
+    width: 100%;
+  }
 }

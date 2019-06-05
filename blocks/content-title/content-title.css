@@ -1,5 +1,5 @@
 .content-title {
-  width: 800px;
+  width: 80%;
   margin: 0;
   padding: 0;
 
@@ -9,4 +9,28 @@
   text-align: center;
   font-family: Inter, Arial, sans-serif;
   color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .content-title {
+    width: 65%;
+
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content-title {
+    width: 70%;
+
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .content-title {
+    width: 100%;
+  }
 }

@@ -4,8 +4,22 @@
 @import url('./__caption/lead__caption.css');
 
 .lead {
-  width: 984px;
-  
+  width: 76.95%;
+
   font-family: Inter, Arial, sans-serif;
   color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .lead {
+    width: 90.62%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .lead {
+    width: 100%;
+  }
 }

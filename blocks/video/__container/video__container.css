@@ -3,3 +3,10 @@
   justify-content: space-between;
   margin-top: 63px;
 }
+
+@media screen and (max-width: 767px) {
+  .video__container {
+    flex-direction: column;
+    margin-top: 24px;
+  }
+}

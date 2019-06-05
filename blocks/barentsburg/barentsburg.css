@@ -8,6 +8,7 @@
 @import url('./__url/barentsburg__url.css');
 
 .barentsburg {
+  display: none;
   font-family: Inter, Arial, sans-serif;
   color: #fff;
 }

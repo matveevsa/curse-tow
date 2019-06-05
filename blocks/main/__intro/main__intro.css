@@ -2,3 +2,9 @@
   margin: 0 auto;
   margin-top: 80px;
 }
+
+@media screen and (max-width: 768px) {
+  .main__intro {
+    margin-top: 64px;
+  }
+}

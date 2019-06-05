@@ -7,3 +7,11 @@
   line-height: 24px;
   font-weight: normal;
 }
+
+@media screen and (max-width: 767px) {
+  .intro__content-row {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: normal;
+  }
+}

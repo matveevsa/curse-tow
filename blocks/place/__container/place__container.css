@@ -1,5 +1,12 @@
 @import url('./_url/place__container_url.css');
 
 .place__container {
-  width: 484px;
+  width: 49.18%;
+}
+
+@media screen and (max-width: 767px) {
+  .place__container {
+    margin-top: 24px;
+    width: 90.62%;
+  }
 }

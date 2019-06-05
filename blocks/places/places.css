@@ -1,5 +1,17 @@
 @import url('./__place/places__place.css');
 
 .places {
-  width: 984px;
+  width: 76.87%;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    width: 90.62%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    width: 100%;
+  }
 }

@@ -2,9 +2,22 @@
   position: relative;
   width: 382px;
   margin: 0 auto;
-  margin-top: 118px;
 
   font-size: 18px;
   line-height: 26px;
   font-weight: normal;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    width: 67%;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__subtitle {
+    width: 100%;
+  }
 }

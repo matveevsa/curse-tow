@@ -1,3 +1,9 @@
 .main__video {
   margin-top: 113px;
 }
+
+@media screen and (max-width: 768px) {
+  .main__video {
+    margin-top: 0;
+  }
+}

@@ -7,3 +7,10 @@
   line-height: 24px;
   font-weight: 900;
 }
+
+
+@media screen and (max-width: 768px) {
+  .comment__author {
+    margin-bottom: 24px;
+  }
+}

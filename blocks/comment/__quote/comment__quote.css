@@ -7,3 +7,13 @@
   line-height: 24px;
   font-weight: normal;
 }
+
+@media screen and (max-width: 1024px) {
+  .comment__quote {
+    order: 1;
+    margin-top: 0;
+    margin-bottom: 47px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+}

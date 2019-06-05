@@ -8,8 +8,21 @@
 
 
 .intro {
-  width: 984px;
-  
+  width: 100%;
+  padding: 0 11.56%;
+
   font-family: Inter, Arial, sans-serif;
   color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 0 4.65%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    padding: 0 3.12%;
+  }
 }

@@ -9,6 +9,8 @@
 @import url('./__link/video__link.css');
 
 .video {
+  width: 90.62%;
+
   font-family: Inter, Arial, sans-serif;
   color: #fff;
 }

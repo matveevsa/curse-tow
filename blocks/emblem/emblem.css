@@ -5,6 +5,7 @@
 @import url('./__city/emblem__city.css');
 
 .emblem {
+  display: none;
   text-align: center;
   font-family: Inter, Arial, sans-serif;
   color: #fff;

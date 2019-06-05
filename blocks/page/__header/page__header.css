@@ -2,3 +2,10 @@
   margin-top: 30px;
   margin-bottom: 59px;
 }
+
+@media screen and (max-width: 768px) {
+  .page__header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+  }
+}

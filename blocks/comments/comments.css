@@ -4,6 +4,7 @@
 @import url('./__content-title/comments__conetent-title.css');
 
 .comments {
+  width: 92.5%;
   font-family: Inter, Arial, sans-serif;
   color: #fff;
 }

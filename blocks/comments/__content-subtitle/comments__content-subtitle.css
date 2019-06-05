@@ -2,3 +2,9 @@
   margin: 0 auto;
   margin-top: 40px;
 }
+
+@media screen and (max-width: 768px) {
+  .comments__content-subtitle {
+    margin-top: 24px;
+  }
+}

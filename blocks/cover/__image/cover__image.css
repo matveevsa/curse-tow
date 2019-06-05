@@ -1,8 +1,28 @@
 .cover__image {
  max-width: 100%;
+ min-height: 594px;
   opacity: 0.7;
 }
 
 .cover:hover .cover__image {
   opacity: 0.2;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .cover__image {
+    min-height: 562px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__image {
+    min-height: 272px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__image {
+    min-height: 216px;
+  }
 }

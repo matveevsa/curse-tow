@@ -6,8 +6,7 @@
 @import url('./__paragraph/place__paragraph.css');
 @import url('./__container/place__container.css');
 .place {
-  width: 984px;
-  
+  width: 100%;
 
   font-family: Inter, Arial, sans-serif;
   color: #fff;
